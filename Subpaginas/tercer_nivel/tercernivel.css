@@ -1,0 +1,63 @@
+
+#cabecera      
+{
+  font: oblique bold 120% cursive;
+  color: rgb(231, 231, 231);
+  background-image: linear-gradient(rgb(50, 207, 194),rgb(193, 29, 199));
+  font-size: 15px;
+  text-align: start;
+  padding: 0px;
+  width: 96%;
+  margin:0px;
+  box-sizing: content-box;
+  border-style: inset;
+  border-width: 2.5mm;
+}
+.myButton
+{
+   box-shadow:inset 0px 1px 0px 0px #efdcfb;
+   background:linear-gradient(to bottom, #dfbdfa 5%, #bc80ea 100%);
+   background-color:#dfbdfa;
+   border-radius:10px;
+   border:3px solid #c584f3;
+   display:inline-block;
+   cursor:pointer;
+   color:#ffffff;
+   font: oblique bold 120% cursive;
+   font-size:15px;
+   font-weight:bold;
+   padding:10px 37px;
+   text-decoration:none;
+   text-shadow:-1px 3px 32px #9752cc;
+   margin: 25px 50px 65px 410px;
+}
+
+h1
+  {
+  margin-left: 20px;
+  font-size: 30px;
+  color: #501680;
+  text-shadow: 2px 2px 2px beige;
+  }
+#contenido
+{
+color: #94848f;
+padding: 10px;
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+width: 100%;
+font-size: 15px;
+margin: 25px 50px 65px 10px;
+}
+h3, h5, h7
+{
+font: oblique bold 120% cursive;
+font-size: 20px;
+}
+
+h4, h6, h8
+{
+font: oblique bold 120% cursive;
+color: #e450cb;
+font-size: 20px;
+}
