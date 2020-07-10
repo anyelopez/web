@@ -82,7 +82,7 @@
          
   ul, ol 
   {
-  list-style:none;
+  list-style:(decimal-leading-zero);
   }
          
   .nav 
@@ -231,10 +231,9 @@ title
   {
   grid-area: maincontenido;
   text-align: center;
-  
-  
   margin: 50px 50px 75px 10px;
   }
+
  p
  {
   grid-area: maincontenido;
@@ -244,7 +243,7 @@ title
  ol
  {
   
-  list-style-type: symbols();
+  list-style-type: none;
   font: oblique bold 120% cursive;
  }
  h5
@@ -255,10 +254,10 @@ title
   font: oblique bold 120% cursive;
  }
 
- body
+ /*body
  {
   background:radial-gradient(circle, rgba(231,174,238,1) 0%, rgba(148,233,206,1) 100%);
- }
+ }*/
 
 
  .Div5
@@ -274,6 +273,7 @@ title
 {
   grid-area: maincontenido;
 padding: 10px;
+margin-left: 55cm;
 background-color: #57BC90;
 border-radius: 10 px;
 color:#aa3939;
@@ -335,7 +335,70 @@ color:#aa3939;
 	top:1px;
 }
 
+.animation1 {
+  width: 200px;
+  margin-left: 25cm;
+  height: 50px;
+  background-color:#7edfe6;
+  position: relative;
+  animation: mymove1 5s infinite;
+}
+
+@keyframes mymove1 {
+  from  { top: 0px; }
+  to {top: 200px;}
+}
+
+.animation2 {
+  width: 200px;
+  height: 50px;
+  background:linear-gradient(to bottom, #bc80ea 5%, #dfbdfa 100%);
+  animation-name: mymove2;
+  animation-duration: 7s ;
+  animation-iteration-count: infinite;
+}
+
+@keyframes mymove2 {
+  from  { 
+    background:#bc80ea ; 
+    -moz-transform: scale(0.5);
+    -webkit-transform: scale(0.5);
+    -o-transform: scale(0.5);
+    -ms-transform: scale(0.5);
+    transform: scale(0.5);
+  }
+  to {
+    background-color:#a14b87;
+    -moz-transform: scale(1.5) rotate(13deg);
+-webkit-transform: scale(1.5) rotate(13deg);
+-o-transform: scale(1.5) rotate(13deg);
+-ms-transform: scale(1.5) rotate(13deg);
+transform: scale(1.5) rotate(13deg);
+  }
+}
+
+
+div.animation3 {
+  margin-left: 15cm;
+  width: 200px;
+  height: 50px;
+  /*background:linear-gradient(to bottom, #bc80ea 5%, #dfbdfa 100%);*/
+  animation-name: mymove3;
+  animation-duration: 7s ;
+  animation-iteration-count: infinite;
+}
+
+@keyframes mymove3{
+  0% {background-color: cornflowerblue;}
+  25% {background-color: rgb(218, 221, 61);}
+  75% {background-color: #a3e67e;}
+  50% {background-color: #bc80ea;}
 
 
 
-  
+}
+
+
+
+
+
