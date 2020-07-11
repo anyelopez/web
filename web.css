@@ -149,6 +149,7 @@
   border-width: 2.5mm;
   height: 175px;
   
+  
 }
 
 .h3
@@ -193,16 +194,7 @@ title
   margin: 25px 50px 65px 10px;
   }
 
-  #subsection1
-
-   {
-    grid-area: maincontenido;
-   text-align: center;
-   color: #8f8f8f;
-   border: 5px outset rgb(117, 117, 117);
-   width: 60%;
-   margin: 5px 50px 7px 150px;  
-   }  
+  
 
   .box2
    {
@@ -273,10 +265,12 @@ title
 {
   grid-area: maincontenido;
 padding: 10px;
-margin-left: 55cm;
+margin: 50cm;
 background-color: #57BC90;
 border-radius: 10 px;
 color:#aa3939;
+
+
 }
 
 .myButton {
@@ -397,6 +391,44 @@ div.animation3 {
 
 
 }
+
+@font-face
+{
+font-family: BlackRose;
+src: url(./black_rose_3/BlackRose.ttf);
+}
+
+#subsection1
+{
+  font-family: BlackRose;
+}
+
+#sketch
+color: #8f8f8f;
+grid-area: maincontenido;
+font-size:30px;
+font-style: italic;
+font-weight: bold;
+width: 100%;
+margin: 40px;
+font-family:sketch;
+border: 5px outset rgb(117, 117, 117);
+width: 60%;
+margin: 5px 50px 7px 150px; 
+text-align: center;
+width: 60%;
+
+/*#subsection1
+
+   {
+    
+   text-align: center;
+   color: #8f8f8f;
+   border: 5px outset rgb(117, 117, 117);
+   width: 60%;
+   margin: 5px 50px 7px 150px;  
+   }  */
+
 
 
 
