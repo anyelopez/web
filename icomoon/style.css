@@ -30,7 +30,7 @@
 .icon-home2:before {
   content: "\e901";
   font-size: 1cm;
-  text-align: right;
+  text-align: left;
 }
 .icon-Facebook:before {
   content: "\ea91";
@@ -52,4 +52,5 @@
 .icon-youtube2:before {
   content: "\ea9e";
   font-size: 1cm;
+
 }

@@ -1,34 +1,41 @@
 
 #cabecera      
 {
-  font: oblique bold 120% cursive;
-  color: rgb(231, 231, 231);
-  background-image: linear-gradient(rgb(50, 207, 194),rgb(193, 29, 199));
-  font-size: 15px;
-  text-align: start;
-  padding: 0px;
-  width: 96%;
-  margin:0px;
-  box-sizing: content-box;
-  border-style: inset;
-  border-width: 2.5mm;
+  grid-area: header;
+    font-family: "Satisfy", cursive;
+      font-weight: bold;
+      text-transform: uppercase;
+      text-align: start;
+      font-size: 25px;
+      color: #7f81ec;
+      background-color: rgba(255, 255, 255, 0.97);
+      text-shadow: rgba(46, 159, 239, 0.5) 2px 9px 3px;
+    
+    padding: 0px;
+    box-sizing: content-box;
+    border-bottom: 9px double rgb(117, 117, 117);
+    border-radius: 5px;
+    border-top: 19px solid rgb(117, 117, 117);
+    height: 100px;
+    width: 1235px;
 }
 .myButton
 {
-   box-shadow:inset 0px 1px 0px 0px #efdcfb;
-   background:linear-gradient(to bottom, #dfbdfa 5%, #bc80ea 100%);
-   background-color:#dfbdfa;
-   border-radius:10px;
-   border:3px solid #c584f3;
-   display:inline-block;
-   cursor:pointer;
-   color:#ffffff;
-   font: oblique bold 120% cursive;
-   font-size:15px;
-   font-weight:bold;
-   padding:10px 37px;
-   text-decoration:none;
-   text-shadow:-1px 3px 32px #9752cc;
+  grid-area: maincontenido;
+	box-shadow:inset 0px 1px 0px 0px #7f81ec;
+	background:linear-gradient(to bottom, #7f81e9 5%, #99afec 100%);
+	background-color:#474e6d;
+	border-radius:10px;
+	border:3px solid #797db9;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font: oblique bold 120% cursive;
+	font-size:15px;
+	font-weight:bold;
+	padding:10px 37px;
+	text-decoration:none;
+	text-shadow:-1px 3px 32px #5a75ad;
    margin: 25px 50px 65px 410px;
 }
 
