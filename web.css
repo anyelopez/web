@@ -478,8 +478,25 @@ text-align: center;
 width: 60%;
 
 
- 
+@media screen and {max-width: 600px;}{
+  nav{
+    display:flex;
+    flex-direction: column;
+}
+@media screen and {min-width:900px} {
+  .grid-container{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    
+    grid-gap: 10px;
+    background-color: #2196F2;
+    padding:10px;
+}
 
-
+grid-container > div {
+  text-align:center;
+  padding: 20px 0;
+  font-size:30px;
+}
 
 
