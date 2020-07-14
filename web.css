@@ -281,7 +281,6 @@ h4
 
 }
 
-@media not all and (monochrome) { 
 .box4
 {
 grid-area: maincontenido;
@@ -293,7 +292,6 @@ margin: auto;
 box-sizing: content-box;
 height: 540px;
 width: 980px;
-}
 }
 
 p
@@ -499,6 +497,12 @@ grid-container > div {
   text-align:center;
   padding: 20px 0;
   font-size:30px;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightgreen;
+  }
 }
 
 
