@@ -1,4 +1,8 @@
-/* ultima actualizacion 28/06/20 20:52h */
+/* ultima actualizacion 15/07/20 20:52h */
+
+
+/*Google fonts*/
+<link href="https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap" rel="stylesheet">
 
 
 .grid-container {
@@ -91,7 +95,7 @@ background-color: rgb(235, 231, 231);
   
  }
 
- 
+ *
   {
   margin:0px;
   padding:0px;
@@ -222,7 +226,7 @@ padding: 10px;
 margin: 25px 50px 65px 410px
 }
 
-.box2
+.box2 .card
 {
   grid-area: maincontenido;
   text-align: center;
@@ -233,6 +237,22 @@ margin: 25px 50px 65px 410px
   box-sizing: content-box;
   height: 400px;
   width: 980px;
+  transition: all 0.25s;
+
+  
+}
+
+.box4 .card:hover
+{
+transform: translate(15px);
+box-shadow: 0 12px; 16px; rgba(0, 0, 0, 0.2); 
+} 
+
+.box2 .card a
+{
+  font-weight: 500;
+  text-decoration: none;
+  color: #44c767;
 }
 
 @keyframes slidein {
@@ -281,7 +301,7 @@ h4
 
 }
 
-.box4
+.box4 
 {
 grid-area: maincontenido;
 text-align: center;
@@ -292,7 +312,12 @@ margin: auto;
 box-sizing: content-box;
 height: 540px;
 width: 980px;
+transition: all 0.25s;
+/*google font*/
+font-family: 'Rowdies', cursive;
 }
+
+
 
 p
 {
@@ -502,38 +527,5 @@ grid-container > div {
 @media only screen and (max-width: 600px) {
   body {
     background-color: #a6a1a8;
-  }
-}
-
-* {
-  box-sizing: border-box;
-}
-
-/* Style the top navigation bar */
-.topnav {
-  overflow: hidden;
- 
-}
-
-/* Style the topnav links */
-.topnav a {
-  float: left;
-  display: block;
-  text-align: center;
-  padding: 14px 16px;
-  
-}
-
-/* Change color on hover */
-.topnav a:hover {
-  background-color: #ddd;
-  
-}
-
-/* On screens that are 600px wide or less, make the menu links stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .topnav a {
-    float: none;
-    width: 100%;
   }
 }
